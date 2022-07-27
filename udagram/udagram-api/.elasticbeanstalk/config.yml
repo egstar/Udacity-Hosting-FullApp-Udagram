@@ -5,8 +5,6 @@ environment-defaults:
   udagram-api-dev:
     branch: null
     repository: null
-deploy:
-  artifact: Archive.zip
 global:
   application_name: udagram-api
   default_ec2_keyname: aws-eb-udacity
@@ -19,3 +17,5 @@ global:
   profile: eb-cli
   sc: null
   workspace_type: Application
+deploy:
+  artifact: www/Archive.zip
