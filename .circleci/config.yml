@@ -48,7 +48,6 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
             npm run api:build
-  # deploy step will run only after manual approval
   deploy:
     docker:
       - image: "cimg/base:stable"
@@ -63,7 +62,6 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
-            echo "# TODO: Install, build, deploy in both apps"
             npm run deploy
             
 workflows:
