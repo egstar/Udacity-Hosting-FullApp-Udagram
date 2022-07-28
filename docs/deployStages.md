@@ -40,7 +40,7 @@ Add all files into repo after build and commit it to github
 ### 7) CircleCi
 Added all files to the CircleCi and setup the project with the needed Environment variables
 #### Checking CircleCi Build
-[![](https://burham.ml/snp/09.png)](https://burham.ml/snp/08.png)
+[![](https://burham.ml/snp/08.png)](https://burham.ml/snp/08.png)
 
 #### Checking CircleCi Deploy
 [![](https://burham.ml/snp/09.png)](https://burham.ml/snp/09.png)
